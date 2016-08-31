@@ -4,9 +4,8 @@ General parent project for persistence java projects.
 
 ## Key features:
 
-1. Provides several plugins in the pluginManagement section that are useful for java projects.
-2. Provides several dependencies in the dependencyManagement section that are useful for java projects.
-3. Provides several profiles for signing, deploying, delombok and update license header.
+1. Provides several plugins in the pluginManagement section that are useful for hibernate projects.
+2. Provides several dependencies in the dependencyManagement section for jpa, hibernate, rest.
 
 ## License
 
