@@ -1,6 +1,6 @@
 # mvn-persistence-parent
-General parent project for persistence java projects.
 
+General parent project for persistence java projects.
 
 ## Key features:
 
@@ -24,8 +24,7 @@ Add as parent project in the `pom.xml` file:
 		<artifactId>mvn-persistence-parent</artifactId>
 		<version>2.37.0</version>
 		<relativePath></relativePath>
-	</parent>
-	
+	</parent>	
 
 ## Want to Help and improve it? ###
 
@@ -34,8 +33,6 @@ The source code for mvn-persistence-parent are on GitHub. Please feel free to fo
 Create your own fork of [lightblueseas/mvn-persistence-parent/fork](https://github.com/lightblueseas/mvn-persistence-parent/fork)
 
 To share your changes, [submit a pull request](https://github.com/lightblueseas/mvn-persistence-parent/pull/new/master).
-
-Don't forget to add new units tests on your changes.
 
 ## Contacting the Developers
 
