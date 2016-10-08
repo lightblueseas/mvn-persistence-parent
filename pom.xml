@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>2.40.0</version>
+	<version>2.41.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -17,9 +17,9 @@
 	<description>
 		Parent project for module projects that is for persistence of data.
 	</description>
-	
+
 	<url>https://github.com/lightblueseas/mvn-persistence-parent</url>
-	
+
 	<licenses>
 
 		<license>
@@ -137,6 +137,8 @@
 		<sql-maven-plugin.version>1.5</sql-maven-plugin.version>
 		<!-- M2E LIFECYCLE MAPPING MAVEN PLUGIN versions -->
 		<m2e.lifecycle-mapping.version>1.0.0</m2e.lifecycle-mapping.version>
+		<!--TORPEDOQUERY version -->
+		<torpedoquery.version>1.7.0</torpedoquery.version>
 	</properties>
 
 	<dependencyManagement>
@@ -378,6 +380,12 @@
 				<artifactId>jetty-runner-config</artifactId>
 				<version>${jetty9-runner.version}</version>
 			</dependency>
+			<!-- TORPEDOQUERY DEPENDENCIES = HQL-QUERY GENERATOR -->
+			<dependency>
+				<groupId>org.torpedoquery</groupId>
+				<artifactId>org.torpedoquery</artifactId>
+				<version>${torpedoquery.version}</version>
+			</dependency>
 
 		</dependencies>
 
@@ -462,7 +470,7 @@
 						</execution>
 					</executions>
 				</plugin>
-				<!--This plugin's configuration is used to store Eclipse m2e settings
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
