@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.1.0</version>
+	<version>3.2.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -111,7 +111,7 @@
 		<!-- RESOURCEBUNDLE-CORE version -->
 		<resourcebundle-inspector.version>2.11.0</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.14.0</jcommons-lang.version>
+		<jcommons-lang.version>4.16.0</jcommons-lang.version>
 		<silly-collections.version>4.12.0</silly-collections.version>
 		<xml-extensions.version>4.14.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
