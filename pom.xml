@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.2.0</version>
+	<version>3.3.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -90,10 +90,15 @@
 		<!-- REST-API versions -->
 		<javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
 		<!-- CXF versions -->
-		<cxf.version>3.1.8</cxf.version>
+		<cxf.version>3.1.9</cxf.version>
 		<cxf-rt-frontend-jaxrs.version>${cxf.version}</cxf-rt-frontend-jaxrs.version>
+		<cxf-rt-transports-http-jetty.version>${cxf.version}</cxf-rt-transports-http-jetty.version>
 		<cxf-rt-rs-client.version>${cxf.version}</cxf-rt-rs-client.version>
+		<cxf-rt-rs-service-description-swagger.version>${cxf.version}</cxf-rt-rs-service-description-swagger.version>
+		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
 		<jackson-jaxrs-json-provider.version>2.8.5</jackson-jaxrs-json-provider.version>
+		<!-- SWAGGER-UI version -->
+		<swagger-ui.version>2.2.6</swagger-ui.version>
 		<!-- HIBERNATE versions -->
 		<hibernate.version>4.3.8.Final</hibernate.version>
 		<hibernate-validator.version>5.1.3.Final</hibernate-validator.version>
@@ -282,6 +287,12 @@
 
 			<dependency>
 				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-transports-http-jetty</artifactId>
+				<version>${cxf-rt-transports-http-jetty.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
 				<artifactId>cxf-rt-rs-client</artifactId>
 				<version>${cxf-rt-rs-client.version}</version>
 			</dependency>
@@ -297,7 +308,19 @@
 				<artifactId>jackson-datatype-jaxrs</artifactId>
 				<version>${jackson-jaxrs-json-provider.version}</version>
 			</dependency>
-			<!-- REST-API versions -->
+
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-rs-service-description-swagger</artifactId>
+				<version>${cxf-rt-rs-service-description-swagger.version}</version>
+			</dependency>
+			<!-- SWAGGER-UI DEPENDENCIES -->
+			<dependency>
+				<groupId>org.webjars</groupId>
+				<artifactId>swagger-ui</artifactId>
+				<version>${swagger-ui.version}</version>
+			</dependency>
+			<!-- REST-API DEPENDENCIES -->
 			<dependency>
 				<groupId>javax.ws.rs</groupId>
 				<artifactId>javax.ws.rs-api</artifactId>
