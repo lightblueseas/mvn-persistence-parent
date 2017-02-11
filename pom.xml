@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>2.17.0</version>
+		<version>2.22.0</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.3.0</version>
+	<version>3.5.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -96,15 +96,15 @@
 		<cxf-rt-rs-client.version>${cxf.version}</cxf-rt-rs-client.version>
 		<cxf-rt-rs-service-description-swagger.version>${cxf.version}</cxf-rt-rs-service-description-swagger.version>
 		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
-		<jackson-jaxrs-json-provider.version>2.8.5</jackson-jaxrs-json-provider.version>
+		<jackson-jaxrs-json-provider.version>2.8.6</jackson-jaxrs-json-provider.version>
 		<!-- SWAGGER-UI version -->
 		<swagger-ui.version>2.2.6</swagger-ui.version>
 		<!-- HIBERNATE versions -->
-		<hibernate.version>4.3.8.Final</hibernate.version>
+		<hibernate.version>4.3.11.Final</hibernate.version>
 		<hibernate-validator.version>5.1.3.Final</hibernate-validator.version>
 		<cglib.version>2.2.2</cglib.version>
 		<!-- SPRING versions -->
-		<spring.version>4.1.5.RELEASE</spring.version>
+		<spring.version>4.3.6.RELEASE</spring.version>
 		<!-- DB DRIVER version -->
 		<postgresql.version>9.4.1211</postgresql.version>
 		<h2.version>1.4.190</h2.version>
@@ -116,8 +116,8 @@
 		<!-- RESOURCEBUNDLE-CORE version -->
 		<resourcebundle-inspector.version>2.11.0</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.16.0</jcommons-lang.version>
-		<silly-collections.version>4.12.0</silly-collections.version>
+		<jcommons-lang.version>4.17.0</jcommons-lang.version>
+		<silly-collections.version>4.14.0</silly-collections.version>
 		<xml-extensions.version>4.14.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- EXTERNAL LIBRARIES versions -->
