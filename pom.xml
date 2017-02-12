@@ -108,6 +108,8 @@
 		<!-- DB DRIVER version -->
 		<postgresql.version>9.4.1211</postgresql.version>
 		<h2.version>1.4.190</h2.version>
+		<!--TORPEDOQUERY version -->
+		<torpedoquery.version>1.7.0</torpedoquery.version>
 		<!-- CONNECTION POOL versions -->
 		<tomcat.version>7.0.65</tomcat.version>
 		<tomcat-dbcp.version>7.0.65</tomcat-dbcp.version>
@@ -133,8 +135,6 @@
 		<sql-maven-plugin.version>1.5</sql-maven-plugin.version>
 		<!-- M2E LIFECYCLE MAPPING MAVEN PLUGIN versions -->
 		<m2e.lifecycle-mapping.version>1.0.0</m2e.lifecycle-mapping.version>
-		<!--TORPEDOQUERY version -->
-		<torpedoquery.version>1.7.0</torpedoquery.version>
 	</properties>
 
 	<dependencyManagement>
