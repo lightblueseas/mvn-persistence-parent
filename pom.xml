@@ -135,6 +135,8 @@
 		<m2e.lifecycle-mapping.version>1.0.0</m2e.lifecycle-mapping.version>
 		<!--TORPEDOQUERY version -->
 		<torpedoquery.version>1.7.0</torpedoquery.version>
+		<!-- FLYWAY MAVEN PLUGIN versions -->
+		<flyway-maven-plugin.version>4.1.2</flyway-maven-plugin.version>
 	</properties>
 
 	<dependencyManagement>
@@ -499,6 +501,12 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
+				
+				    <plugin>
+					<groupId>org.flywaydb</groupId>
+					<artifactId>flyway-maven-plugin</artifactId>
+					<version>${flyway-maven-plugin.version}</version>
+				    </plugin>
 
 			</plugins>
 
