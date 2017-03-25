@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>2.23.0</version>
+		<version>2.24.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.6.0</version>
+	<version>3.7.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -85,8 +85,15 @@
 		<!-- JAVAX-SERVLET-API version -->
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 		<!-- JETTY version -->
-		<jetty9.version>9.4.0.v20161208</jetty9.version>
-		<jetty9-runner.version>3.10.0</jetty9-runner.version>
+		<jetty9.version>9.4.2.v20170220</jetty9.version>
+		<jetty9-runner.version>3.12.0-SNAPSHOT</jetty9-runner.version>
+		<!-- RESOURCEBUNDLE-CORE version -->
+		<resourcebundle-inspector.version>2.12.0-SNAPSHOT</resourcebundle-inspector.version>
+		<!-- EXTENSIONS LIB versions -->
+		<jcommons-lang.version>4.19.0-SNAPSHOT</jcommons-lang.version>
+		<silly-collections.version>4.15.0-SNAPSHOT</silly-collections.version>
+		<xml-extensions.version>4.16.0-SNAPSHOT</xml-extensions.version>
+		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- REST-API versions -->
 		<javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
 		<!-- CXF versions -->
@@ -115,13 +122,6 @@
 		<tomcat-dbcp.version>7.0.65</tomcat-dbcp.version>
 		<!-- DB UNIT version -->
 		<dbunit.version>2.5.2</dbunit.version>
-		<!-- RESOURCEBUNDLE-CORE version -->
-		<resourcebundle-inspector.version>2.11.0</resourcebundle-inspector.version>
-		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.17.0</jcommons-lang.version>
-		<silly-collections.version>4.14.0</silly-collections.version>
-		<xml-extensions.version>4.14.0</xml-extensions.version>
-		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- EXTERNAL LIBRARIES versions -->
 		<dozer.version>5.5.1</dozer.version>
 		<!-- allowed values: R7, 1.0, 1.5, 2.0 or none -->
