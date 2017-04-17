@@ -115,11 +115,12 @@
 		<!-- DB DRIVER version -->
 		<postgresql.version>9.4.1211</postgresql.version>
 		<h2.version>1.4.190</h2.version>
-		<!--TORPEDOQUERY version -->
-		<torpedoquery.version>1.7.0</torpedoquery.version>
 		<!-- CONNECTION POOL versions -->
 		<tomcat.version>7.0.65</tomcat.version>
-		<tomcat-dbcp.version>7.0.65</tomcat-dbcp.version>
+		<tomcat-dbcp.version>${tomcat.version}</tomcat-dbcp.version>
+		<tomcat-jdbc.version>${tomcat.version}</tomcat-jdbc.version>
+		<!--TORPEDOQUERY version -->
+		<torpedoquery.version>1.7.0</torpedoquery.version>
 		<!-- DB UNIT version -->
 		<dbunit.version>2.5.2</dbunit.version>
 		<!-- EXTERNAL LIBRARIES versions -->
@@ -226,7 +227,7 @@
 			<dependency>
 				<groupId>org.apache.tomcat</groupId>
 				<artifactId>tomcat-jdbc</artifactId>
-				<version>${tomcat.version}</version>
+				<version>${tomcat-jdbc.version}</version>
 			</dependency>
 			<!-- JDBC DEPENDENCIES -->
 			<dependency>
