@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>2.24.0-SNAPSHOT</version>
+		<version>2.24.0</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.7.0-SNAPSHOT</version>
+	<version>3.7.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -86,13 +86,13 @@
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 		<!-- JETTY version -->
 		<jetty9.version>9.4.2.v20170220</jetty9.version>
-		<jetty9-runner.version>3.12.0-SNAPSHOT</jetty9-runner.version>
+		<jetty9-runner.version>3.12.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE version -->
-		<resourcebundle-inspector.version>2.12.0-SNAPSHOT</resourcebundle-inspector.version>
+		<resourcebundle-inspector.version>2.12.0</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.19.0-SNAPSHOT</jcommons-lang.version>
-		<silly-collections.version>4.15.0-SNAPSHOT</silly-collections.version>
-		<xml-extensions.version>4.16.0-SNAPSHOT</xml-extensions.version>
+		<jcommons-lang.version>4.19.0</jcommons-lang.version>
+		<silly-collections.version>4.15.0</silly-collections.version>
+		<xml-extensions.version>4.16.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- REST-API versions -->
 		<javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
@@ -504,12 +504,12 @@
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
-				
-				    <plugin>
+
+				<plugin>
 					<groupId>org.flywaydb</groupId>
 					<artifactId>flyway-maven-plugin</artifactId>
 					<version>${flyway-maven-plugin.version}</version>
-				    </plugin>
+				</plugin>
 
 			</plugins>
 
