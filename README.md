@@ -22,7 +22,7 @@ Add as parent project in the `pom.xml` file:
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>3.6.0</version>
+		<version>3.8.0</version>
 		<relativePath></relativePath>
 	</parent>	
 
@@ -39,10 +39,13 @@ To share your changes, [submit a pull request](https://github.com/lightblueseas/
 Do not hesitate to contact the mvn-persistence-parent developers with your questions, concerns, comments, bug reports, or feature requests.
 - Feature requests, questions and bug reports can be reported at the [issues page](https://github.com/lightblueseas/mvn-persistence-parent/issues).
 
+## Note
+
+No animals were harmed in the making of this library.
+
 # Donate
 
 If you like this library, please consider a donation through 
 <a href="https://flattr.com/submit/auto?fid=r7vp62&url=https%3A%2F%2Fgithub.com%2Flightblueseas%2Fmvn-persistence-parent" target="_blank">
 <img src="http://button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0">
 </a>
-
