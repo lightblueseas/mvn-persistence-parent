@@ -116,7 +116,7 @@
 		<postgresql.version>9.4.1211</postgresql.version>
 		<h2.version>1.4.196</h2.version>
 		<!-- CONNECTION POOL versions -->
-		<tomcat.version>7.0.65</tomcat.version>
+		<tomcat.version>7.0.79</tomcat.version>
 		<tomcat-dbcp.version>${tomcat.version}</tomcat-dbcp.version>
 		<tomcat-jdbc.version>${tomcat.version}</tomcat-jdbc.version>
 		<!--TORPEDOQUERY version -->
