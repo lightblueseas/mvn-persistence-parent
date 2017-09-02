@@ -91,7 +91,7 @@
 		<resourcebundle-inspector.version>2.12.0</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.21.0</jcommons-lang.version>
-		<silly-collections.version>4.16.0</silly-collections.version>
+		<silly-collections.version>4.17.0</silly-collections.version>
 		<xml-extensions.version>4.16.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- REST-API versions -->
