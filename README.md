@@ -22,7 +22,7 @@ Add as parent project in the `pom.xml` file:
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>3.9.0</version>
+		<version>3.11.0</version>
 		<relativePath></relativePath>
 	</parent>	
 
@@ -32,7 +32,7 @@ The source code for mvn-persistence-parent are on GitHub. Please feel free to fo
 
 Create your own fork of [lightblueseas/mvn-persistence-parent/fork](https://github.com/lightblueseas/mvn-persistence-parent/fork)
 
-To share your changes, [submit a pull request](https://github.com/lightblueseas/mvn-persistence-parent/pull/new/master).
+To share your changes, [submit a pull request](https://github.com/lightblueseas/mvn-persistence-parent/pull/new/develop).
 
 ## Contacting the Developers
 
