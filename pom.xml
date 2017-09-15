@@ -86,9 +86,11 @@
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 		<!-- JETTY version -->
 		<jetty9.version>9.4.6.v20170531</jetty9.version>
+		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
-		<!-- RESOURCEBUNDLE-CORE version -->
-		<resourcebundle-inspector.version>2.14.0</resourcebundle-inspector.version>
+		<!-- RESOURCEBUNDLE-CORE versions -->
+		<resourcebundle-core.version>2.14.0</resourcebundle-core.version>
+		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.21.0</jcommons-lang.version>
 		<silly-collections.version>4.17.0</silly-collections.version>
