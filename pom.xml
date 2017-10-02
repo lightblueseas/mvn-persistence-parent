@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.11.0</version>
+	<version>3.12.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -89,23 +89,23 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.14.0</resourcebundle-core.version>
+		<resourcebundle-core.version>2.15.0</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.21.0</jcommons-lang.version>
-		<silly-collections.version>4.17.0</silly-collections.version>
+		<jcommons-lang.version>4.22.0</jcommons-lang.version>
+		<silly-collections.version>4.19.0</silly-collections.version>
 		<xml-extensions.version>4.16.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- REST-API versions -->
 		<javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
 		<!-- CXF versions -->
-		<cxf.version>3.1.12</cxf.version>
+		<cxf.version>3.2.0</cxf.version>
 		<cxf-rt-frontend-jaxrs.version>${cxf.version}</cxf-rt-frontend-jaxrs.version>
 		<cxf-rt-transports-http-jetty.version>${cxf.version}</cxf-rt-transports-http-jetty.version>
 		<cxf-rt-rs-client.version>${cxf.version}</cxf-rt-rs-client.version>
 		<cxf-rt-rs-service-description-swagger.version>${cxf.version}</cxf-rt-rs-service-description-swagger.version>
 		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
-		<jackson-jaxrs-json-provider.version>2.8.9</jackson-jaxrs-json-provider.version>
+		<jackson-jaxrs-json-provider.version>2.9.1</jackson-jaxrs-json-provider.version>
 		<!-- SWAGGER-UI version -->
 		<swagger-ui.version>2.2.6</swagger-ui.version>
 		<!-- HIBERNATE versions -->
