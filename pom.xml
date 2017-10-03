@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.14.0-SNAPSHOT</version>
+	<version>3.12.1</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -89,7 +89,7 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.15.0</resourcebundle-core.version>
+		<resourcebundle-core.version>2.15.1</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.22.0</jcommons-lang.version>
