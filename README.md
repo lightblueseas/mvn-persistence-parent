@@ -13,6 +13,7 @@ The source code comes under the liberal Apache License V2.0, making mvn-persiste
 
 ## Maven Central
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e78783af08c4c01b6725fc6d9b7e467)](https://www.codacy.com/app/tatjana19/mvn-persistence-parent?utm_source=github.com&utm_medium=referral&utm_content=lightblueseas/mvn-persistence-parent&utm_campaign=badger)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent)
 
 ## How to use it
@@ -22,7 +23,7 @@ Add as parent project in the `pom.xml` file:
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>3.10.0</version>
+		<version>3.12.1</version>
 		<relativePath></relativePath>
 	</parent>	
 
@@ -32,7 +33,7 @@ The source code for mvn-persistence-parent are on GitHub. Please feel free to fo
 
 Create your own fork of [lightblueseas/mvn-persistence-parent/fork](https://github.com/lightblueseas/mvn-persistence-parent/fork)
 
-To share your changes, [submit a pull request](https://github.com/lightblueseas/mvn-persistence-parent/pull/new/master).
+To share your changes, [submit a pull request](https://github.com/lightblueseas/mvn-persistence-parent/pull/new/develop).
 
 ## Contacting the Developers
 
