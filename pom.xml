@@ -92,7 +92,7 @@
 		<resourcebundle-core.version>2.15.1</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.22.0</jcommons-lang.version>
+		<jcommons-lang.version>4.23.0</jcommons-lang.version>
 		<silly-collections.version>4.19.0</silly-collections.version>
 		<xml-extensions.version>4.16.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
