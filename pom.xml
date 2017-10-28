@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>2.28.0</version>
+		<version>2.29.0</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>3.12.0</version>
+	<version>3.14.0</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -89,10 +89,10 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.15.0</resourcebundle-core.version>
+		<resourcebundle-core.version>2.15.1</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.22.0</jcommons-lang.version>
+		<jcommons-lang.version>4.25.0</jcommons-lang.version>
 		<silly-collections.version>4.19.0</silly-collections.version>
 		<xml-extensions.version>4.16.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
