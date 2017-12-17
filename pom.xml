@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>3.2.0</version>
+		<version>3.3.0</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>4.2.0-SNAPSHOT</version>
+	<version>4.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -31,10 +31,10 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.15.1</resourcebundle-core.version>
+		<resourcebundle-core.version>2.16.0</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.26.0</jcommons-lang.version>
+		<jcommons-lang.version>4.27.0</jcommons-lang.version>
 		<silly-collections.version>4.20.0</silly-collections.version>
 		<xml-extensions.version>4.17.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
@@ -47,34 +47,34 @@
 		<jobject-diff.version>${jobject-extensions.version}</jobject-diff.version>
 		<jobject-merge.version>${jobject-extensions.version}</jobject-merge.version>
 		<!-- REST-API versions -->
-		<javax.ws.rs-api.version>2.0.1</javax.ws.rs-api.version>
+		<javax.ws.rs-api.version>2.1</javax.ws.rs-api.version>
 		<!-- CXF versions -->
-		<cxf.version>3.2.0</cxf.version>
+		<cxf.version>3.2.1</cxf.version>
 		<cxf-rt-frontend-jaxrs.version>${cxf.version}</cxf-rt-frontend-jaxrs.version>
 		<cxf-rt-transports-http-jetty.version>${cxf.version}</cxf-rt-transports-http-jetty.version>
 		<cxf-rt-rs-client.version>${cxf.version}</cxf-rt-rs-client.version>
 		<cxf-rt-rs-service-description-swagger.version>${cxf.version}</cxf-rt-rs-service-description-swagger.version>
 		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
-		<jackson-jaxrs-json-provider.version>2.9.1</jackson-jaxrs-json-provider.version>
+		<jackson-jaxrs-json-provider.version>2.9.3</jackson-jaxrs-json-provider.version>
 		<!-- SWAGGER-UI version -->
-		<swagger-ui.version>2.2.6</swagger-ui.version>
+		<swagger-ui.version>3.5.0</swagger-ui.version>
 		<!-- HIBERNATE versions -->
 		<hibernate.version>5.2.12.Final</hibernate.version>
 		<hibernate-validator.version>5.4.1.Final</hibernate-validator.version>
 		<cglib.version>2.2.2</cglib.version>
 		<!-- SPRING versions -->
-		<spring.version>4.3.9.RELEASE</spring.version>
+		<spring.version>4.3.12.RELEASE</spring.version>
 		<!-- DB DRIVER version -->
-		<postgresql.version>42.1.1</postgresql.version>
+		<postgresql.version>42.1.4</postgresql.version>
 		<h2.version>1.4.196</h2.version>
 		<!-- CONNECTION POOL versions -->
-		<tomcat.version>7.0.79</tomcat.version>
+		<tomcat.version>7.0.82</tomcat.version>
 		<tomcat-dbcp.version>${tomcat.version}</tomcat-dbcp.version>
 		<tomcat-jdbc.version>${tomcat.version}</tomcat-jdbc.version>
 		<!--TORPEDOQUERY version -->
-		<torpedoquery.version>2.5.0</torpedoquery.version>
+		<torpedoquery.version>2.5.1</torpedoquery.version>
 		<!-- DB UNIT version -->
-		<dbunit.version>2.5.2</dbunit.version>
+		<dbunit.version>2.5.4</dbunit.version>
 		<!-- EXTERNAL LIBRARIES versions -->
 		<dozer.version>5.5.1</dozer.version>
 		<!-- allowed values: R7, 1.0, 1.5, 2.0 or none -->
