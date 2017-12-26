@@ -35,11 +35,11 @@
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.27.0</jcommons-lang.version>
-		<silly-collections.version>4.20.0</silly-collections.version>
+		<silly-collections.version>4.21.1</silly-collections.version>
 		<xml-extensions.version>4.17.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- JOBJECT-EXTENSIONS version -->
-		<jobject-extensions.version>1.4.0</jobject-extensions.version>
+		<jobject-extensions.version>1.6.0</jobject-extensions.version>
 		<jobject-clone.version>${jobject-extensions.version}</jobject-clone.version>
 		<jobject-compare.version>${jobject-extensions.version}</jobject-compare.version>
 		<jobject-copy.version>${jobject-extensions.version}</jobject-copy.version>
