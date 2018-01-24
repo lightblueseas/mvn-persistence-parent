@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>3.3.0</version>
+		<version>3.5.0</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
@@ -31,15 +31,15 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.14.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.16.0</resourcebundle-core.version>
+		<resourcebundle-core.version>2.17.0</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.27.0</jcommons-lang.version>
-		<silly-collections.version>4.21.1</silly-collections.version>
-		<xml-extensions.version>4.17.0</xml-extensions.version>
+		<jcommons-lang.version>4.29.0</jcommons-lang.version>
+		<silly-collections.version>4.23.0</silly-collections.version>
+		<xml-extensions.version>4.18.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- JOBJECT-EXTENSIONS version -->
-		<jobject-extensions.version>1.6.0</jobject-extensions.version>
+		<jobject-extensions.version>1.8.0</jobject-extensions.version>
 		<jobject-clone.version>${jobject-extensions.version}</jobject-clone.version>
 		<jobject-compare.version>${jobject-extensions.version}</jobject-compare.version>
 		<jobject-copy.version>${jobject-extensions.version}</jobject-copy.version>

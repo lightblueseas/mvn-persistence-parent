@@ -1,5 +1,9 @@
 # mvn-persistence-parent
 
+[![Build Status](https://travis-ci.org/lightblueseas/mvn-persistence-parent.svg?branch=master)](https://travis-ci.org/lightblueseas/mvn-persistence-parent)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e78783af08c4c01b6725fc6d9b7e467)](https://www.codacy.com/app/tatjana19/mvn-persistence-parent?utm_source=github.com&utm_medium=referral&utm_content=lightblueseas/mvn-persistence-parent&utm_campaign=badger)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent)
+
 General parent project for persistence java projects.
 
 ## Key features:
@@ -10,14 +14,6 @@ General parent project for persistence java projects.
 ## License
 
 The source code comes under the liberal Apache License V2.0, making mvn-persistence-parent great for all types of java applications.
-
-## Build status
-[![Build Status](https://travis-ci.org/lightblueseas/mvn-persistence-parent.svg?branch=master)](https://travis-ci.org/lightblueseas/mvn-persistence-parent)
-
-## Maven Central
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e78783af08c4c01b6725fc6d9b7e467)](https://www.codacy.com/app/tatjana19/mvn-persistence-parent?utm_source=github.com&utm_medium=referral&utm_content=lightblueseas/mvn-persistence-parent&utm_campaign=badger)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent)
 
 ## How to use it
 
