@@ -1,8 +1,14 @@
 # mvn-persistence-parent
 
+<div align="center">
+
+[![license apache2](https://img.shields.io/badge/license-apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Build Status](https://travis-ci.org/lightblueseas/mvn-persistence-parent.svg?branch=master)](https://travis-ci.org/lightblueseas/mvn-persistence-parent)
+[![Open Issues](https://img.shields.io/github/issues/lightblueseas/mvn-persistence-parent.svg?style=flat)](https://github.com/lightblueseas/mvn-persistence-parent/issues) 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e78783af08c4c01b6725fc6d9b7e467)](https://www.codacy.com/app/tatjana19/mvn-persistence-parent?utm_source=github.com&utm_medium=referral&utm_content=lightblueseas/mvn-persistence-parent&utm_campaign=badger)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.alpharogroup/mvn-persistence-parent)
+
+</div>
 
 General parent project for persistence java projects.
 
@@ -22,7 +28,7 @@ Add as parent project in the `pom.xml` file:
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>4.3.0</version>
+		<version>4.4.0</version>
 		<relativePath></relativePath>
 	</parent>	
 
