@@ -1,9 +1,14 @@
 ## Change log
 ----------------------
 
-Version 4.5.0-SNAPSHOT
+Version 4.5.0
 -------------
 
+CHANGED:
+
+- update groupId from org.hibernate to org.hibernate.validator
+- update of swagger-ui version to 3.10.0
+- silly-collections version to 4.25.0
 
 Version 4.4.0
 -------------
