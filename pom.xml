@@ -35,7 +35,7 @@
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.29.0</jcommons-lang.version>
-		<silly-collections.version>4.24.0</silly-collections.version>
+		<silly-collections.version>4.25.0</silly-collections.version>
 		<xml-extensions.version>4.18.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- JOBJECT-EXTENSIONS version -->
@@ -57,7 +57,7 @@
 		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
 		<jackson-jaxrs-json-provider.version>2.9.4</jackson-jaxrs-json-provider.version>
 		<!-- SWAGGER-UI version -->
-		<swagger-ui.version>3.9.3</swagger-ui.version>
+		<swagger-ui.version>3.10.0</swagger-ui.version>
 		<!-- HIBERNATE versions -->
 		<hibernate.version>5.2.12.Final</hibernate.version>
 		<hibernate-validator.version>6.0.7.Final</hibernate-validator.version>
