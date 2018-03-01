@@ -1,6 +1,14 @@
 ## Change log
 ----------------------
 
+Version 4.6.0
+-------------
+
+CHANGED:
+
+- update of parent version to 3.9.0
+
+
 Version 4.5.0
 -------------
 
