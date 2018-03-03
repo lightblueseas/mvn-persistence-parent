@@ -1,6 +1,13 @@
 ## Change log
 ----------------------
 
+Version 4.7.0-SNAPSHOT
+-------------
+
+CHANGED:
+
+- update of resourcebundle-core version to 2.19.0
+
 Version 4.6.0
 -------------
 
