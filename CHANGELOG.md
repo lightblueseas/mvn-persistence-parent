@@ -6,7 +6,19 @@ Version 4.7.0-SNAPSHOT
 
 CHANGED:
 
+- update of parent version to 3.10.0
 - update of resourcebundle-core version to 2.19.0
+- update of silly-collections version to 4.27.0
+- update of jobject-extensions version to 1.10.0
+- update of cxf version to 3.2.4
+- update of jackson-jaxrs-json-provider version to 2.9.5
+- update of swagger-ui version to 2.9.5
+- update of spring version to 4.3.15.RELEASE
+- update of postgresql version to 42.2.2
+- update of tomcat version to 7.0.85
+- update of maven-war-plugin version to 3.2.0
+- update of hibernate3-maven-plugin version to 3.0
+- update of hibernate4-maven-plugin version to 1.1.1 
 
 Version 4.6.0
 -------------
