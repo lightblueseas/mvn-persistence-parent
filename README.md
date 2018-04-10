@@ -28,7 +28,7 @@ Add as parent project in the `pom.xml` file:
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-persistence-parent</artifactId>
-		<version>4.6.0</version>
+		<version>4.7.0</version>
 		<relativePath></relativePath>
 	</parent>	
 
