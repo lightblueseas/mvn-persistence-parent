@@ -8,6 +8,7 @@ CHANGED:
 
 - update of resourcebundle-core version to 2.20.0
 - update of jcommons-lang version to 4.30.0
+- downgrade of hibernate3-maven-plugin version to 2.2 cause of schema generation bug in hibernate3-maven-plugin
 
 Version 4.7.0
 -------------
