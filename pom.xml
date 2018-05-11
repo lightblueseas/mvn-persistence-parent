@@ -35,7 +35,7 @@
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.30.0</jcommons-lang.version>
-		<silly-collections.version>4.27.0</silly-collections.version>
+		<silly-collections.version>4.28.0</silly-collections.version>
 		<xml-extensions.version>4.18.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- JOBJECT-EXTENSIONS version -->
