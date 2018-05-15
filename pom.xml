@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>3.10.0</version>
+		<version>3.11</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>4.8.0-SNAPSHOT</version>
+	<version>4.8-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -34,7 +34,7 @@
 		<resourcebundle-core.version>2.20.0</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.30.0</jcommons-lang.version>
+		<jcommons-lang.version>4.31.0</jcommons-lang.version>
 		<silly-collections.version>4.28.0</silly-collections.version>
 		<xml-extensions.version>4.18.0</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
