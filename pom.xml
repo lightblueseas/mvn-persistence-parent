@@ -31,7 +31,7 @@
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.15.0</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.20.0</resourcebundle-core.version>
+		<resourcebundle-core.version>2.21</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
 		<jcommons-lang.version>4.31.0</jcommons-lang.version>

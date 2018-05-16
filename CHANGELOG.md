@@ -7,8 +7,9 @@ Version 4.8.0-SNAPSHOT
 CHANGED:
 
 - update of parent version to 3.11
-- update of resourcebundle-core version to 2.20.0
-- update of jcommons-lang version to 4.30.0
+- update of resourcebundle-core version to 2.21
+- update of jcommons-lang version to 4.31.0
+- update of silly-collections version to 4.28.0
 - downgrade of hibernate3-maven-plugin version to 2.2 cause of schema generation bug in hibernate3-maven-plugin
 - removed unneeded .0 at the end of version
 
