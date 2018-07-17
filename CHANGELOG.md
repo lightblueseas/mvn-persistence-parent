@@ -1,6 +1,27 @@
 ## Change log
 ----------------------
 
+Version 4.8
+-------------
+
+CHANGED:
+
+- update of parent version to 4
+- removed unneeded .0 at the end of version
+- update of jetty9 version to 9.4.11.v20180605
+- update of jetty-runner version to 3.16
+- update of resourcebundle-core version to 2.22
+- update of jcommons-lang version to 4.34
+- update of silly-collections version to 4.31
+- update of xml-extensions version to 4.20
+- update of jobject-extensions version to 1.12
+- update of cxf version to 3.2.5
+- update of jackson-jaxrs-json-provider version to 2.9.6
+- update of swagger-ui version to 3.17.3
+- update of postgresql version to 42.2.4
+- update of tomcat version to 7.0.90
+- downgrade of hibernate3-maven-plugin version to 2.2 cause of schema generation bug in hibernate3-maven-plugin
+
 Version 4.7.0
 -------------
 
