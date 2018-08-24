@@ -1,6 +1,27 @@
 ## Change log
 ----------------------
 
+Version 5
+-------------
+
+ADDED:
+ 
+- new dependency javax.el-api added in version 3.0.0
+- new dependency jobject-evaluate added in version 1.12
+
+CHANGED:
+
+- update of parent version to 4.1
+- update of resourcebundle-core version to 3
+- update of jcommons-lang version to 4.35
+- update of silly-collections version to 4.33
+- update of cxf version to 3.2.6
+- update of swagger-ui version to 3.18.1
+- update of hibernate version to 5.3.5.Final
+- update of hibernate-validator version to 6.0.12.Final
+- update of cglib version to 3.2.7
+- update of tomcat version to 9.0.11
+
 Version 4.8
 -------------
 

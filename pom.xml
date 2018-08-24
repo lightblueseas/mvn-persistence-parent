@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>de.alpharogroup</groupId>
 		<artifactId>mvn-java-parent</artifactId>
-		<version>4</version>
+		<version>4.1</version>
 	</parent>
 
 	<artifactId>mvn-persistence-parent</artifactId>
-	<version>4.8</version>
+	<version>5</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -26,16 +26,18 @@
 		<javax.inject.version>1</javax.inject.version>
 		<!-- JAVAX-SERVLET-API version -->
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+		<!-- JAVAX-EL-API version -->
+		<javax.el-api.version>3.0.0</javax.el-api.version>
 		<!-- JETTY version -->
 		<jetty9.version>9.4.11.v20180605</jetty9.version>
 		<!-- JETTY9-RUNNER version -->
 		<jetty9-runner.version>3.16</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
-		<resourcebundle-core.version>2.22</resourcebundle-core.version>
+		<resourcebundle-core.version>3</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
 		<!-- EXTENSIONS LIB versions -->
-		<jcommons-lang.version>4.34</jcommons-lang.version>
-		<silly-collections.version>4.31</silly-collections.version>
+		<jcommons-lang.version>4.35</jcommons-lang.version>
+		<silly-collections.version>4.33</silly-collections.version>
 		<xml-extensions.version>4.20</xml-extensions.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
 		<!-- JOBJECT-EXTENSIONS version -->
@@ -45,11 +47,12 @@
 		<jobject-copy.version>${jobject-extensions.version}</jobject-copy.version>
 		<jobject-core.version>${jobject-extensions.version}</jobject-core.version>
 		<jobject-diff.version>${jobject-extensions.version}</jobject-diff.version>
+		<jobject-evaluate.version>${jobject-extensions.version}</jobject-evaluate.version>
 		<jobject-merge.version>${jobject-extensions.version}</jobject-merge.version>
 		<!-- REST-API versions -->
 		<javax.ws.rs-api.version>2.1</javax.ws.rs-api.version>
 		<!-- CXF versions -->
-		<cxf.version>3.2.5</cxf.version>
+		<cxf.version>3.2.6</cxf.version>
 		<cxf-rt-frontend-jaxrs.version>${cxf.version}</cxf-rt-frontend-jaxrs.version>
 		<cxf-rt-transports-http-jetty.version>${cxf.version}</cxf-rt-transports-http-jetty.version>
 		<cxf-rt-rs-client.version>${cxf.version}</cxf-rt-rs-client.version>
@@ -57,19 +60,19 @@
 		<!-- JACKSON-JAXRS-JSON-PROVIDER version -->
 		<jackson-jaxrs-json-provider.version>2.9.6</jackson-jaxrs-json-provider.version>
 		<!-- SWAGGER-UI version -->
-		<swagger-ui.version>3.17.3</swagger-ui.version>
+		<swagger-ui.version>3.18.1</swagger-ui.version>
 		<!-- HIBERNATE versions -->
-		<hibernate.version>5.2.12.Final</hibernate.version>
-		<hibernate-validator.version>6.0.7.Final</hibernate-validator.version>
+		<hibernate.version>5.3.5.Final</hibernate.version>
+		<hibernate-validator.version>6.0.12.Final</hibernate-validator.version>
 		<validation-api.version>2.0.1.Final</validation-api.version>
-		<cglib.version>3.2.6</cglib.version>
+		<cglib.version>3.2.7</cglib.version>
 		<!-- SPRING versions -->
 		<spring.version>4.3.15.RELEASE</spring.version>
 		<!-- DB DRIVER version -->
 		<postgresql.version>42.2.4</postgresql.version>
 		<h2.version>1.4.197</h2.version>
 		<!-- CONNECTION POOL versions -->
-		<tomcat.version>7.0.90</tomcat.version>
+		<tomcat.version>9.0.11</tomcat.version>
 		<tomcat-dbcp.version>${tomcat.version}</tomcat-dbcp.version>
 		<tomcat-jdbc.version>${tomcat.version}</tomcat-jdbc.version>
 		<!--TORPEDOQUERY version -->
@@ -233,11 +236,17 @@
 				<artifactId>javax.inject</artifactId>
 				<version>${javax.inject.version}</version>
 			</dependency>
-			<!-- JAVAX SERVLET DEPENDENCIES -->
+			<!-- JAVAX SERVLET DEPENDENCY -->
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
 				<version>${javax.servlet-api.version}</version>
+			</dependency>
+			<!-- JAVAX EL DEPENDENCY -->			
+			<dependency>
+				<groupId>javax.el</groupId>
+				<artifactId>javax.el-api</artifactId>
+				<version>${javax.el-api.version}</version>
 			</dependency>
 			<!-- CONNECTION-POOL DEPENDENCIES -->
 			<dependency>
@@ -317,6 +326,12 @@
 				<groupId>de.alpharogroup</groupId>
 				<artifactId>jobject-diff</artifactId>
 				<version>${jobject-diff.version}</version>
+			</dependency>
+			<!-- JOBJECT-EVALUATE DEPENDENCY -->
+			<dependency>
+				<groupId>de.alpharogroup</groupId>
+				<artifactId>jobject-evaluate</artifactId>
+				<version>${jobject-evaluate.version}</version>
 			</dependency>
 			<!-- JOBJECT-MERGE DEPENDENCIES -->
 			<dependency>
