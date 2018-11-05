@@ -78,7 +78,7 @@
 		<!--TORPEDOQUERY version -->
 		<torpedoquery.version>2.5.1</torpedoquery.version>
 		<!-- DB UNIT version -->
-		<dbunit.version>2.5.4</dbunit.version>
+		<dbunit.version>2.6.0</dbunit.version>
 		<!-- EXTERNAL LIBRARIES versions -->
 		<dozer.version>5.5.1</dozer.version>
 		<!-- allowed values: R7, 1.0, 1.5, 2.0 or none -->
