@@ -67,7 +67,7 @@
 		<validation-api.version>2.0.1.Final</validation-api.version>
 		<cglib.version>3.2.7</cglib.version>
 		<!-- SPRING versions -->
-		<spring.version>4.3.15.RELEASE</spring.version>
+		<spring.version>4.3.18.RELEASE</spring.version>
 		<!-- DB DRIVER version -->
 		<postgresql.version>42.2.4</postgresql.version>
 		<h2.version>1.4.197</h2.version>
