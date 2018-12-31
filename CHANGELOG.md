@@ -1,9 +1,22 @@
 ## Change log
 ----------------------
 
-Version 5.1-SNAPSHOT
+Version 5.1
 -------------
 
+CHANGED:
+
+- update of parent version to 4.5
+- update of resourcebundle-core version to 3.0.1
+- update of jcommons-lang version to 5.1
+- update of silly-collections version to 5
+- update of jackson-jaxrs-json-provider version to 2.9.8
+- update of jobject-extensions version to 2.5
+- update of javax.ws.rs-api version to 2.1.1
+- update of cxf version to 3.2.7
+- update of cglib version to 3.2.10
+- update of hibernate version to 5.4.0.Final
+- update of swagger-ui version to 3.20.3
 
 Version 5
 -------------
