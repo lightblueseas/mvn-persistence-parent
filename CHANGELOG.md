@@ -4,6 +4,10 @@
 Version 5.2-SNAPSHOT
 -------------
 
+CHANGED:
+
+- update of jetty-runner version to 3.16.1
+
 Version 5.1
 -------------
 

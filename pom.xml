@@ -31,7 +31,7 @@
 		<!-- JETTY version -->
 		<jetty9.version>9.4.11.v20180605</jetty9.version>
 		<!-- JETTY9-RUNNER version -->
-		<jetty9-runner.version>3.16</jetty9-runner.version>
+		<jetty9-runner.version>3.16.1</jetty9-runner.version>
 		<!-- RESOURCEBUNDLE-CORE versions -->
 		<resourcebundle-core.version>3.0.1</resourcebundle-core.version>
 		<resourcebundle-inspector.version>${resourcebundle-core.version}</resourcebundle-inspector.version>
